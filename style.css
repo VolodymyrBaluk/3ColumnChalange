@@ -55,7 +55,7 @@ p {
 svg {
   margin: 40px 0 0 40px;
 }
-.button {
+.buttonBlock {
   background-color: white;
   border-radius: 40px;
   width: 170px;
@@ -65,70 +65,43 @@ svg {
   justify-content: center;
   align-items: center;
 }
-.button1 > a {
+.buttonParametres > a:link {
   display: block;
   font-size: 18px;
   font-family: " Lexend Deca";
   font-weight: 400;
-  text-decoration: none;
   width: 100px;
   background-color: white;
-  color: hsl(31, 77%, 52%);
 }
-.button2 > a {
-  display: block;
-  font-size: 18px;
-  font-family: " Lexend Deca";
-  font-weight: 400;
+.buttonHoverParametres > a:hover {
+  border: 3px solid white;
+  border-radius: 40px;
+  width: 170px;
+  height: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  letter-spacing: 0.5px;
+}
+.button1TextColor > a {
+  color: hsl(31, 77%, 52%);
   text-decoration: none;
-  width: 100px;
-  background-color: white;
+}
+.button2TextColor > a {
+  text-decoration: none;
   color: hsl(184, 100%, 22%);
 }
-.button3 > a {
-  display: block;
-  font-size: 18px;
-  font-family: " Lexend Deca";
-  font-weight: 400;
+.button3TextColor > a {
   text-decoration: none;
-  width: 100px;
-  background-color: white;
   color: hsl(179, 100%, 13%);
 }
-
-.buttonA > a:hover {
+.buttonAbackGroundColor > a:hover {
   background-color: hsl(31, 77%, 52%);
-  border: 3px solid white;
-  border-radius: 40px;
-  width: 170px;
-  height: 53px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  letter-spacing: 0.5px;
 }
-.buttonB > a:hover {
+.buttonBbackGroundColor > a:hover {
   background-color: hsl(184, 100%, 22%);
-  border: 3px solid white;
-  border-radius: 40px;
-  width: 170px;
-  height: 53px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  letter-spacing: 0.5px;
 }
-.buttonC > a:hover {
+.buttonCbackGroundColor > a:hover {
   background-color: hsl(179, 100%, 13%);
-  border: 3px solid white;
-  border-radius: 40px;
-  width: 170px;
-  height: 53px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  letter-spacing: 0.5px;
 }
