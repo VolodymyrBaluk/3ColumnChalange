@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+body {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 45px;
+  text-align: left;
+  padding: 20px;
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+  margin: 10px 10px -60px 30px;
+}
+p {
+  font-size: 18px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: " Lexend Deca";
+  font-weight: 400;
+  flex-flow: column;
+  padding-left: 30px;
+  line-height: 25px;
+  width: 215px;
+  letter-spacing: 0.5px;
+}
+.block1 {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+}
+.block2 {
+  background-color: hsl(184, 100%, 22%);
+}
+.block3 {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
+}
+.block {
+  color: white;
+  width: 320px;
+  height: 580px;
+  display: flex;
+  float: left;
+  flex-flow: column;
+}
+
+.block-main {
+  width: 960px;
+  margin: 85px auto;
+}
+.text-space {
+  padding: 55px 30px 40px 20px;
+}
+svg {
+  margin: 40px 0 0 40px;
+}
+.button {
+  background-color: white;
+  border-radius: 40px;
+  width: 170px;
+  height: 53px;
+  margin: 65px 0 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button1 > a {
+  display: block;
+  font-size: 18px;
+  font-family: " Lexend Deca";
+  font-weight: 400;
+  text-decoration: none;
+  width: 100px;
+  background-color: white;
+  color: hsl(31, 77%, 52%);
+}
+.button2 > a {
+  display: block;
+  font-size: 18px;
+  font-family: " Lexend Deca";
+  font-weight: 400;
+  text-decoration: none;
+  width: 100px;
+  background-color: white;
+  color: hsl(184, 100%, 22%);
+}
+.button3 > a {
+  display: block;
+  font-size: 18px;
+  font-family: " Lexend Deca";
+  font-weight: 400;
+  text-decoration: none;
+  width: 100px;
+  background-color: white;
+  color: hsl(179, 100%, 13%);
+}
+
+.buttonA > a:hover {
+  background-color: hsl(31, 77%, 52%);
+  border: 3px solid white;
+  border-radius: 40px;
+  width: 170px;
+  height: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  letter-spacing: 0.5px;
+}
+.buttonB > a:hover {
+  background-color: hsl(184, 100%, 22%);
+  border: 3px solid white;
+  border-radius: 40px;
+  width: 170px;
+  height: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  letter-spacing: 0.5px;
+}
+.buttonC > a:hover {
+  background-color: hsl(179, 100%, 13%);
+  border: 3px solid white;
+  border-radius: 40px;
+  width: 170px;
+  height: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  letter-spacing: 0.5px;
+}
